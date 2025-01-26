@@ -40,7 +40,7 @@
 }
 
 main{
-    max-width: 1022px;
+    max-width: 1080px;
     margin: 0px auto;
 }
 
@@ -122,6 +122,38 @@ main > section{
 #part-1{
     font-weight: 500;
 }
+
+/* features style */
+
+.features{
+    gap: 100px;
+}
+
+
+
+#single-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 14px;
+}
+.only-card{
+    
+    padding: 21px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.only-card, .feature-title{
+    font-weight: 600;
+    font-size: 0.88rem;
+    
+}
+.feature-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
 
 /* fact styles */
 .facts-container{
