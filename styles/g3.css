@@ -126,7 +126,7 @@ main > section{
 /* features style */
 
 .features{
-    gap: 100px;
+    gap: 103px;
 }
 
 
@@ -153,7 +153,21 @@ main > section{
     margin-bottom: 0px;
 }
 
+#experience-badge{
+    padding: 31px 29px;
+    font-size: 1.10rem;
+    font-weight: 500;
+    margin-left: -71px;
+    margin-top: -71px;
+}
+#experience-year{
+    font-size: 2.88rem;
+    font-weight: 700;
+}
 
+.featured-img img{
+    width: 100%;
+}
 
 /* fact styles */
 .facts-container{
@@ -207,6 +221,7 @@ main > section{
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links, 
+    .features
     .teams{
         flex-direction: column;
     }
@@ -229,7 +244,10 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
-
+    #experience-badge{
+        margin-top: 20px;
+        left: 20px;
+    }
 }
 
 
